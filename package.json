@@ -1,0 +1,22 @@
+{
+  "name": "server_post",
+  "version": "1.0.0",
+  "description": "This is POST server in default Node.JS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "POST",
+    "Server"
+  ],
+  "author": "Hayk Melqonyan <haykm2006@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "object-hash": "^2.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
