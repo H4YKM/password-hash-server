@@ -1,4 +1,4 @@
-# password-hash-server
+# Password hash server
 
 It is a simple <strong>POST</strong> server that uses the standard <strong>HTTP</strong> library, and the optional <a href="https://www.npmjs.com/package/object-hash">object-hash</a> library.
 The server gets your password from a regular HTML page and will make a hashed password out of it.
@@ -12,7 +12,7 @@ npm instal
 
 ## Second step
 
-Run your code in <strong>Dev</strong> or in <strong>Defaukt</strong> mode
+Run your code in <strong>Dev</strong> or in <strong>Default</strong> mode
 
 ### Dev
 
