@@ -26,4 +26,5 @@ npm run dev
 npm run start
 ```
 
+## Go on site http://localhost:3000/
 ## See your result in <strong>console</strong>
