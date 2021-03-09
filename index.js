@@ -11,6 +11,18 @@ http.createServer((req, res) => {
         res.setHeader('Content-type', 'text/html');
         res.end(pageTxt);
 
+    } else {
+
+        let body = '';
+        req.on('data', chunk => {
+            body += chunk.toString();
+            console.log(body); // Text print
+        });
+        req.on('end', () => {
+            const hashedPass = hash.sha1(body);
+            console.log(hashedPass); // Hash print
+        })
+
     }
 
 }).listen(PORT, () => {
