@@ -1,8 +1,9 @@
 const http = require('http');
 const fs = require('fs');
 const hash = require('object-hash');
+const config = require('config');
 
-const PORT = 3000;
+const PORT = config.get('PORT') || 3000;
 
 http.createServer((req, res) => {
 

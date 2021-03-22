@@ -14,6 +14,7 @@
   "author": "Hayk Melqonyan <haykm2006@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "config": "^3.3.6",
     "object-hash": "^2.1.1"
   },
   "devDependencies": {
